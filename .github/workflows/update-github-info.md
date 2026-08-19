@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[github-info] "
@@ -31,6 +32,7 @@ Fetch and review the latest public GitHub updates from:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the fetched material to update `site/content/github-info.md` with short, practical summaries that help developers learn GitHub faster. Mention the source URL whenever an update comes from the GitHub Blog or GitHub Changelog. Preserve the existing format and make only relevant, focused changes. Do not modify any other files.
 
